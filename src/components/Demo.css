@@ -1,0 +1,7 @@
+.demo-chart {
+    width: 100vw;
+}
+
+.demo-chart > * {
+    width: 100vw;
+}
