@@ -7,7 +7,6 @@ type animationType = {
 }
 
 
-
 const LandingPage =({animation}: animationType) => {
     useEffect(() => {
         let animationProps;
@@ -25,16 +24,8 @@ const LandingPage =({animation}: animationType) => {
             opacity: [0,1],
             easing: "easeInOutQuad"
           };
-        } else if(animation === 'rolldown') {
-          animationProps = {
-            targets: '.wrapper',
-            duration: 1500,
-            translationY: ["100deg", 0],
-            easing: "easeInOutQuad"
-          };
         }
     
-        // Kalla endast på anime() om animationProps inte är undefined
         if (animationProps !== undefined) {
           anime(animationProps);
         }
@@ -42,7 +33,8 @@ const LandingPage =({animation}: animationType) => {
 
     return (
       <article className='wrapper'>
-        <>NOBEL INFOOOOOO</>
+        <h1>Nobelpriset</h1>
+        <p> Nobelpriset är en prestigefull internationell utmärkelse som delas ut varje år till personer och organisationer som har gjort exceptionella insatser inom områdena litteratur, fysik, kemi, fysiologi eller medicin, fred och ekonomi. Nobelpriset instiftades genom testamente av den svenske uppfinnaren och industrimannen Alfred Nobel, och de första priserna delades ut 1901. Nobelpriset är ett av världens mest välkända och prestigefyllda utmärkelser, och många berömda personer har vunnit Nobelpriset genom åren, inklusive Albert Einstein, Marie Curie och Martin Luther King Jr.</p>
       
       </article>
     )

@@ -27,13 +27,6 @@ const WinnerByGender = ({animation}: animationType) => {
             opacity: [0,1],
             easing: "easeInOutQuad"
           };
-        } else if(animation === 'rolldown') {
-          animationProps = {
-            targets: '.wrapper',
-            duration: 1500,
-            translationY: ["100deg", 0],
-            easing: "easeInOutQuad"
-          };
         }
     
         // Kalla endast på anime() om animationProps inte är undefined

@@ -28,16 +28,7 @@ const TopTen = ({animation}: animationType) => {
             opacity: [0,1],
             easing: "easeInOutQuad"
           };
-        } else if(animation === 'rolldown') {
-          animationProps = {
-            targets: '.wrapper',
-            duration: 1500,
-            translationY: ["100deg", 0],
-            easing: "easeInOutQuad"
-          };
         }
-    
-        // Kalla endast på anime() om animationProps inte är undefined
         if (animationProps !== undefined) {
           anime(animationProps);
         }
@@ -46,7 +37,7 @@ const TopTen = ({animation}: animationType) => {
   return (
     <article className='wrapper'>
       <h1>Tio i Top vinnare</h1>
-      <div className='chart-wrapper smaller'>
+      <div className='chart-wrapper top-ten'>
         <Bar data={topTenData} />
       </div>
     </article>

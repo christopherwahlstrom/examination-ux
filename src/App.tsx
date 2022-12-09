@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import { Route, Routes } from "react-router-dom";
-import './App.css';
 import Header from './components/Header';
 import WinnerByGender from './views/WinnerByGender';
 import PriceMoney from './views/PriceMoney';
 import TotalCategory from './views/TotalCategory';
 import TopTen from './views/TopTen';
 import LandingPage from './views/LandingPage';
+import './App.css';
 
 function App() {
 	const [animation, setNewAnimation] = useState('fade-in')

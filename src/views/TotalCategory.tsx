@@ -3,7 +3,7 @@ import 'chart.js/auto';
 import { useEffect } from 'react';
 import { Pie } from 'react-chartjs-2';
 import { categoryData } from '../data/dataExport';
-import './TotalCategory.css';
+import './TotalCategory.css'
 
 type animationType = {
     animation: string
@@ -27,13 +27,6 @@ const TotalCategory = ({animation}: animationType) => {
 			opacity: [0,1],
 			easing: "easeInOutQuad"
 		  };
-		} else if(animation === 'rolldown') {
-		  animationProps = {
-			targets: '.wrapper',
-			duration: 1500,
-			translationY: ["100deg", 0],
-			easing: "easeInOutQuad"
-		  };
 		}
 		  if (animationProps !== undefined) {
 			anime(animationProps);
@@ -43,7 +36,7 @@ const TotalCategory = ({animation}: animationType) => {
   return (
       <article className='wrapper'>
           <h1>Totala vinster fördelade över kategori</h1>
-          <section className='chart-wrapper circle'> 
+          <section className='chart-wrapper '> 
                 <Pie data={categoryData} />   
           </section>
       </article>

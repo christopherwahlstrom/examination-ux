@@ -32,9 +32,8 @@ type animationType = {
         <div className="menu-category">
           <div onClick={selectAnimation} className={animationSelected}>Animeringar</div>
           <nav className={animationSelected + "menu"}>
-            <li className={animation === "slide-in" ? "activated": ""} onClick={(event)=> setNewAnimation("slide-in")}>Slide-In</li>
-            <li className={animation === "fade-in" ? "activated": ""} onClick={(event)=> setNewAnimation("fade-in")}>Fade-In</li>
-            <li className={animation === "rolldown" ? "activated": ""} onClick={(event)=> setNewAnimation("rolldown")}>Roll Down</li>
+            <li className={animation === "slide-in" ? "activated": ""} onClick={()=> setNewAnimation("slide-in")}>Slide-In</li>
+            <li className={animation === "fade-in" ? "activated": ""} onClick={()=> setNewAnimation("fade-in")}>Fade-In</li>
           </nav>
           <div onClick={selectCharts} className={chartSelection}>Diagram</div>
           <nav className={chartSelection + " menu"}>
@@ -45,7 +44,6 @@ type animationType = {
             <Link to="/topTen" >Top 10 vinnare</Link>
           </nav>
         </div>
-        {/* <div className="select-background"></div> */}
       </section>
     </header>
   )
