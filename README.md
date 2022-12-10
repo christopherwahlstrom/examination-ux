@@ -16,6 +16,9 @@ Syftet med din rapport är att du ska visa det som du inte visade i presentation
 
 
 
+Rapport över projektet
+
+
 1. Jag har använt mig av 
    a: Genomsnittliga prissumman per år
 ... med möjlighet att byta mellan dåvarande beloppet och ett som är justerat till dagens penningvärde (båda finns i datafilen) (nr 1 med : i)
