@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    height: 12.1em;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(17, 16, 16);
+}
+
+.header-title {
+    font-size: 30px;
+    padding-top: 1.5em;
+    padding-right: 2em;
+    padding-left: 0.5em;
+    margin-top: 0.5em;
+    margin-left: 0.3em;
+}
+
+.menu-tab {
+    margin-top: 0.3em;
+}
+
+
+
+button {
+    border-radius: 0 32px 0 0;
+    padding: 0.6em 1.2em;
+    font-size: 1.1em;
+    font-weight: 400;
+    font-family: inherit;
+    background-color: #454545;
+    color: #fff;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+button:hover {
+    border-color: #646cff;
+    font-size: 1.1em;
+}
+ 
+.btn-link {
+    margin-right: 6px;
+}
+
+#animation-btn {
+  margin-top: 0.3em;
+  color: #47e5bd;
+  margin-right: 6px;
+  text-decoration-line: underline;  
+}

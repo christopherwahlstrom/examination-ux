@@ -2,7 +2,7 @@ import anime from 'animejs';
 import {useEffect} from 'react';
 import { Pie } from 'react-chartjs-2';
 import { winnersByGender } from '../data/dataExport'
-import './WinnerByGender.css';
+
 
 
 type animationType = {

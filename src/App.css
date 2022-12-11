@@ -1,26 +1,70 @@
 #root {
   margin: 0 auto;
-  list-style-type: none;
+  font-size: 23px;
 }
-html {
-  width: 100vw;
+
+
+* {
+  box-sizing: border-box;
 }
+
 body {
   margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
 }
+
+
+a {
+  font-weight: 600;
+  color: #47e5bd;
+  /* text-decoration: inherit; */
+}
+a:hover {
+  color: #ffffff;
+}
+
+
 .content-wrapper {
+  padding-left: 20%;
+  width: 80%;
   height: max-content;
   padding-bottom: 2rem;
-}
+} 
+
 article {
   text-align: center;
-  height: 100%;
+  height: auto;
+}
+
+.chart-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 80%;
+  margin: 0 auto;
 }
 
 .top-ten {
-  width: 100%;
-  
+  width: 100%; 
 }
-.circle {
-  width: 100%;
+
+.chart-wrapper pie{
+  width: 50%;
+}
+
+.wrapper {
+  padding: 7em;
+}
+  
+/* För landing page info */
+
+
+.wrapper-info {
+  padding: 5em;
+  line-height: 2em;
+  font-size: 1.2em;
 }

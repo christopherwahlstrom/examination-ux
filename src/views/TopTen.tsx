@@ -3,7 +3,7 @@ import 'chart.js/auto';
 import { Bar } from 'react-chartjs-2';
 import { topTenData } from '../data/dataExport';
 import { useEffect } from 'react';
-import './TopTen.css';
+
 
 
 type animationType = {

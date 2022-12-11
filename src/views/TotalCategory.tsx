@@ -3,7 +3,7 @@ import 'chart.js/auto';
 import { useEffect } from 'react';
 import { Pie } from 'react-chartjs-2';
 import { categoryData } from '../data/dataExport';
-import './TotalCategory.css'
+import '../App.css';
 
 type animationType = {
     animation: string
@@ -36,7 +36,7 @@ const TotalCategory = ({animation}: animationType) => {
   return (
       <article className='wrapper'>
           <h1>Totala vinster fördelade över kategori</h1>
-          <section className='chart-wrapper '> 
+          <section className='chart-wrapper pie'> 
                 <Pie data={categoryData} />   
           </section>
       </article>
