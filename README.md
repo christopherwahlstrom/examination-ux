@@ -8,6 +8,8 @@ Render länk : https://ux-examination.onrender.com
 
 Här får du en lite kläm och känn tyvärr så märker jag att ibland så strular render med appen ( inget fel uppkommer när jag kör den lokalt dock ) så då publisering inte är ett krav så lägger jag inte ner mer på att fel söka render, vid mån av mer tid hade jag lagt över den på firebase istället.
 
+OBS! Skriftlig rapport under exempel bilder
+
 
 ![image](https://user-images.githubusercontent.com/83230387/207112376-890c00c6-aa04-4c7b-a429-f75fcbf252c9.png)
 
@@ -16,6 +18,7 @@ Här får du en lite kläm och känn tyvärr så märker jag att ibland så stru
 ![image](https://user-images.githubusercontent.com/83230387/207113251-a62d0bc4-b68c-4916-9134-b8caba488b0f.png)
 
 
+![image](https://user-images.githubusercontent.com/83230387/207113499-bfc713e3-2c06-4d95-98f9-b253e26792f4.png)
 
 
 
