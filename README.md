@@ -13,6 +13,7 @@ Här får du en lite kläm och känn tyvärr så märker jag att ibland så stru
 
 
 
+![image](https://user-images.githubusercontent.com/83230387/207113251-a62d0bc4-b68c-4916-9134-b8caba488b0f.png)
 
 
 
