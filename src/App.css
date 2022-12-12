@@ -19,7 +19,6 @@ body {
 a {
   font-weight: 600;
   color: #47e5bd;
-  /* text-decoration: inherit; */
 }
 a:hover {
   color: #ffffff;

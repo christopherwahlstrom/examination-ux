@@ -9,7 +9,7 @@ import data from './json_laureates.json'
 
 type countType = { [key: string]: number };
 	const genderData: string[] = data.map(object => object.gender ? object.gender : "organisation")
-	 // male, female, org 
+	
 	let genderLabels: string [] | undefined =  [], genderCount: countType = {}
 	
 	for( let i: number = 0; i < genderData.length; i++ ) {
