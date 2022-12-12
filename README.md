@@ -6,7 +6,17 @@ Appen är publiserad på render:
 
 Render länk : https://ux-examination.onrender.com 
 
-Kan hända att du får ändra Zoom på din webläsare så flikarna ligger i en linje (fått en fel min node) så hoppas du inte märker det men så du vet om det kvarstår. 
+Här får du en lite kläm och känn tyvärr så märker jag att ibland så strular render med appen ( inget fel uppkommer när jag kör den lokalt dock ) så då publisering inte är ett krav så lägger jag inte ner mer på att fel söka render, vid mån av mer tid hade jag lagt över den på firebase istället.
+
+
+![image](https://user-images.githubusercontent.com/83230387/207112376-890c00c6-aa04-4c7b-a429-f75fcbf252c9.png)
+
+
+
+
+
+
+
 
 Skriftlig rapport
 Syftet med din rapport är att du ska visa det som du inte visade i presentationen. Din rapport ska svara på frågorna:
@@ -14,6 +24,11 @@ Syftet med din rapport är att du ska visa det som du inte visade i presentation
 1: Vilka av diagrammen ovan har du implementerat?
 2: Vilka animeringar har du?
 3: Hur har du använt dig av animationens principer när du designat animeringarna?
+
+
+
+
+
 
 
 
