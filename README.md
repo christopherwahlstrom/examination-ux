@@ -6,6 +6,8 @@ Appen är publiserad på render:
 
 Render länk : https://ux-examination.onrender.com 
 
+Kan hända att du får ändra Zoom på din webläsare så flikarna ligger i en linje (fått en fel min node) så hoppas du inte märker det men så du vet om det kvarstår. 
+
 Skriftlig rapport
 Syftet med din rapport är att du ska visa det som du inte visade i presentationen. Din rapport ska svara på frågorna:
 
