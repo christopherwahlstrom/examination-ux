@@ -1,6 +1,6 @@
 import anime from 'animejs';
 import { useEffect } from 'react';
-import './LandingPage.css';
+
 
 type animationType = {
     animation: string
