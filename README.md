@@ -6,7 +6,6 @@ Appen är publiserad på render:
 
 Render länk : https://ux-examination.onrender.com 
 
-Här får du en lite kläm och känn tyvärr så märker jag att ibland så strular render med appen ( inget fel uppkommer när jag kör den lokalt dock ) så då publisering inte är ett krav så lägger jag inte ner mer på att fel söka render, vid mån av mer tid hade jag lagt över den på firebase istället.
 
 OBS! Skriftlig rapport under exempel bilder
 
